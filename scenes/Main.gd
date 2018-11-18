@@ -42,6 +42,8 @@ func _on_StartTimer_timeout():
 
 func _on_ScoreTimer_timeout():
 	score += 1
+	print(score)
+	$HUD.update_score(score)
 
 
 func _on_MobTimer_timeout():

@@ -19,6 +19,7 @@ func show_game_over():
 	
 func update_score(score):
 	$ScoreLabel.text = str(score)
+	print("update_score called")
 	
 	
 	
